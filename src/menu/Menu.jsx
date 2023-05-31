@@ -1,26 +1,15 @@
 export const Menu = () => {
-    return
-    <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul className="navbar-nav mb-2 mb-lg-0">
-            <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="#">Key Features</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="#">Pricing</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="#">Testiminial</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="#">FAQ</a>
-            </li>
-            <li className="nav-item nav-btn">
-                <button className="Allbtn" type="submit">Try for free</button>
-            </li>
-        </ul>
-    </div>
+    return (
+        <>
+            <a href="/" className="MenuItem">TimeLab</a>
+            <a href="/">Home</a>
+            <a href="/pages/About">Key Features</a>
+            <a href="/pages/Contact">Pricing</a>
+            <a href="/">Testimonial</a>
+            <a href="/">FAQ</a>
+            <a href="/">Try it for FREE</a>
+            {/* Hello World! */}
 
+        </>
+    )
 }

@@ -1,0 +1,14 @@
+a{
+    padding-left: 30px;
+    margin: auto;
+    align-items:initial;
+    padding: 40px 10px;
+    z-index: 5;
+}
+.MenuItem {
+    padding: 10px 10px;
+    padding-right: 20px;
+    margin-right: 10px;
+    z-index: 5;
+
+}
