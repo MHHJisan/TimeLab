@@ -1,14 +1,8 @@
-a{
-    padding-left: 30px;
-    margin: auto;
-    align-items:initial;
-    padding: 40px 10px;
-    z-index: 5;
+.header {
+    display: flex;
+    justify-content: start;
+    text-align: right;
 }
-.MenuItem {
-    padding: 10px 10px;
-    padding-right: 20px;
-    margin-right: 10px;
-    z-index: 5;
-
+.header a{
+    padding: 10px;
 }

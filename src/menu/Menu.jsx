@@ -1,14 +1,16 @@
+import './Menu.css'
 export const Menu = () => {
     return (
         <>
-            <a href="/" className="MenuItem">TimeLab</a>
-            <a href="/">Home</a>
-            <a href="/pages/About">Key Features</a>
-            <a href="/pages/Contact">Pricing</a>
-            <a href="/">Testimonial</a>
-            <a href="/">FAQ</a>
-            <a href="/">Try it for FREE</a>
-            {/* Hello World! */}
+            <header className="header">
+                <a>TimeLab</a>
+                <a>HOME</a>
+                <a>Key Features</a>
+                <a>Pricing</a>
+                <a>Testimonial</a>
+                <a>FAQ</a>
+                <a>Try it for free</a>
+            </header>
 
         </>
     )
